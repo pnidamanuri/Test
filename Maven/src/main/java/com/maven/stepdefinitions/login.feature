@@ -9,4 +9,3 @@ When Login to the application
 Then I go to Iphone store
 And I navigate to Samsung store and select Sansung J8
 And I quit broswer
-

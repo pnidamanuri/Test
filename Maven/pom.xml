@@ -43,8 +43,7 @@
 <dependency>
     <groupId>info.cukes</groupId>
     <artifactId>cucumber-junit</artifactId>
-    <version>1.2.2</version>
-    <scope>test</scope>
+    <version>1.2.2</version>    
 </dependency>
     
     <!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
@@ -62,10 +61,11 @@
 </dependency>
     
     <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
+ <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
 <dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-java8</artifactId>
-    <version>2.0.1</version>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>1.2.5</version>
 </dependency>
     
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->

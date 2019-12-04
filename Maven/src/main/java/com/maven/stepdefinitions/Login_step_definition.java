@@ -51,7 +51,7 @@ import cucumber.api.java.en.When;
 		 @Then("^I go to Iphone store$")
 		    public void i_go_to_iphone_store() throws Throwable {
 			 homePage=PageFactory.initElements(driver, HomePage.class);
-				Thread.sleep(1000);
+				Thread.sleep(1500);
 				 homePage.Ele.click();
 				 Thread.sleep(1000);
 				 homePage.Apple.click();
